@@ -160,6 +160,7 @@ export default function Home() {
             className="flex flex-col sm:flex-row gap-4 mt-4"
           >
             <Button variant="gold" size="md">
+              {/* Trigger Recompilation */}
               Saber Más <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </motion.div>
@@ -167,11 +168,11 @@ export default function Home() {
       </section>
 
       {/* Vision Section — with decorative frame background */}
-      <section id="vision" className="relative bg-brand-blue overflow-hidden">
+      <section id="vision" className="relative bg-brand-navy overflow-hidden">
         {/* Background image — decorative frame */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
-          style={{ backgroundImage: "url('/vision_bg.png')" }}
+          style={{ backgroundImage: "url('/vision_bg.webp?v=2')" }}
         />
         {/* Subtle dot pattern overlay */}
         <div className="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#050b14_1px,transparent_1px)] [background-size:16px_16px]" />
@@ -290,11 +291,11 @@ export default function Home() {
       )}
 
       {/* Meetings Carousel Section — Swiper */}
-      <section id="reuniones" className="relative bg-brand-blue overflow-hidden py-14 md:py-18">
+      <section id="reuniones" className="relative bg-brand-navy overflow-hidden py-14 md:py-18">
         {/* Background image */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-50"
-          style={{ backgroundImage: "url('/reuniones_bg.png')" }}
+          style={{ backgroundImage: "url('/reuniones_bg.webp?v=2')" }}
         />
         {/* Subtle dot pattern overlay */}
         <div className="absolute inset-0 opacity-[0.03] bg-[radial-gradient(#050b14_1px,transparent_1px)] [background-size:16px_16px]" />
