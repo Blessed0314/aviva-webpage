@@ -10,8 +10,13 @@
   --color-brand-navy-card: #121c2e;
   --color-brand-blue: #368ac1;
   --color-brand-blue-hover: #2974a1;
-  --color-brand-gold: #d4af37;
-  --color-brand-gold-hover: #b8952b;
+  
+  /* Original Gold Backup: #d4af37 / #b8952b */
+  --color-brand-gold-backup: #d4af37;
+  --color-brand-gold-backup-hover: #b8952b;
+
+  --color-brand-gold: #FFA238;
+  --color-brand-gold-hover: #e68b1e;
   --color-brand-cyan: #06b6d4;
 }
 
